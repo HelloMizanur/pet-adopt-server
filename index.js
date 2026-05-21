@@ -1,6 +1,6 @@
-import dns from "node:dns/promises";
+// import dns from "node:dns/promises";
 
-dns.setServers(["1.1.1.1", "8.8.8.8"]);
+// dns.setServers(["1.1.1.1", "8.8.8.8"]);
 
 import "dotenv/config";
 import express from "express";
