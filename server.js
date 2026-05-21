@@ -48,7 +48,7 @@ if (!MONGO_URI) {
 mongoose
   .connect(MONGO_URI)
   .then(() => {
-    console.log("MongoDB connected");
+    // console.log("MongoDB connected");
     app.listen(PORT, () => console.log(`API on http://localhost:${PORT}`));
   })
   .catch((e) => {
